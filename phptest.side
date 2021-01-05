@@ -1,0 +1,83 @@
+{
+  "id": "60db5e3b-2f7f-4d62-ab18-d4fff728f796",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://34.121.178.4:49154",
+  "tests": [{
+    "id": "6a6ecd61-1f1a-41dc-bff8-afd3688f0460",
+    "name": "test1",
+    "commands": [{
+      "id": "8267af35-b9ee-4921-b5ce-06a9c5ec0e30",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23df441b-e40a-4dd1-97a8-c213277f3a22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x575",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7ac3c10-225b-422e-9aa3-fe626646b954",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41236592-76cc-4ba1-99d3-271492db618a",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "shyam"
+    }, {
+      "id": "48e8b803-3c6f-4026-88dc-e9b389cf6846",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "9872342055"
+    }, {
+      "id": "56fe7f34-81fe-4dce-8bf4-8605695cfa35",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4de8b9ca-4599-48ed-83c9-9c3632e96ac6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6a6ecd61-1f1a-41dc-bff8-afd3688f0460"]
+  }],
+  "urls": ["http://34.121.178.4:49154/"],
+  "plugins": []
+}
